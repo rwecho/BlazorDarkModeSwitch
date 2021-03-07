@@ -1,0 +1,45 @@
+<div class="custom-control custom-switch">
+    <input type="checkbox" 
+           class="custom-control-input"
+           id="darkSwitch"
+           @bind-value="DarkTheme">
+    <label class="custom-control-label" for="darkSwitch">Toggle this switch element</label>
+</div>
+
+@inject DarkModeSwitchJsInterop JsInterop;
+@code
+{
+    [Parameter]
+    public bool DarkTheme
+    {
+        get => _darkTheme;
+        set
+        {
+            _darkTheme = value;
+            this.RaiseDarkThemeChangedAsync();
+        }
+    }
+
+    private async Task RaiseDarkThemeChangedAsync()
+    {
+        if (_darkTheme)
+        {
+            await JsInterop.ResetTheme(true);
+        }
+        else
+        {
+            await JsInterop.ResetTheme(false);
+        }
+        await this.DarkThemeChanged.InvokeAsync(_darkTheme);
+    }
+
+    [Parameter]
+    public EventCallback<bool> DarkThemeChanged { get; set; }
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JsInterop.InitTheme();
+    }
+
+    private bool _darkTheme;
+}

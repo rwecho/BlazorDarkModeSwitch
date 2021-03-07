@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E3D47B15-65E0-4767-A869-FB949E3D5B7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB72A63A-22D5-41A5-B812-D49510AAAA4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch.Server", "examples\Server\BlazorDarkModeSwitch.Server.csproj", "{4502A98F-7793-44BB-8444-EEE7A76BA07F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch.Client", "examples\Client\BlazorDarkModeSwitch.Client.csproj", "{6D456EEF-AF51-4EF1-BBDC-B714411C5B78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch.Shared", "examples\Shared\BlazorDarkModeSwitch.Shared.csproj", "{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDarkModeSwitch", "src\BlazorDarkModeSwitch\BlazorDarkModeSwitch.csproj", "{CA048F29-0CB3-49A5-9C19-96234074CC18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4502A98F-7793-44BB-8444-EEE7A76BA07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4502A98F-7793-44BB-8444-EEE7A76BA07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4502A98F-7793-44BB-8444-EEE7A76BA07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4502A98F-7793-44BB-8444-EEE7A76BA07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D456EEF-AF51-4EF1-BBDC-B714411C5B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D456EEF-AF51-4EF1-BBDC-B714411C5B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D456EEF-AF51-4EF1-BBDC-B714411C5B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D456EEF-AF51-4EF1-BBDC-B714411C5B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA048F29-0CB3-49A5-9C19-96234074CC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA048F29-0CB3-49A5-9C19-96234074CC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA048F29-0CB3-49A5-9C19-96234074CC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA048F29-0CB3-49A5-9C19-96234074CC18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4502A98F-7793-44BB-8444-EEE7A76BA07F} = {E3D47B15-65E0-4767-A869-FB949E3D5B7B}
+		{6D456EEF-AF51-4EF1-BBDC-B714411C5B78} = {E3D47B15-65E0-4767-A869-FB949E3D5B7B}
+		{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68} = {E3D47B15-65E0-4767-A869-FB949E3D5B7B}
+		{CA048F29-0CB3-49A5-9C19-96234074CC18} = {FB72A63A-22D5-41A5-B812-D49510AAAA4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3D7D9ED-3DE0-4B8F-BA2E-0C0ACC7B7C47}
+	EndGlobalSection
+EndGlobal
