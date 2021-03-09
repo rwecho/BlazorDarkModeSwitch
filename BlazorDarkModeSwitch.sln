@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch.Client
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch.Shared", "examples\Shared\BlazorDarkModeSwitch.Shared.csproj", "{91B5B5FB-1AEC-44C5-B6C5-0A6EA6B63A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDarkModeSwitch", "src\BlazorDarkModeSwitch\BlazorDarkModeSwitch.csproj", "{CA048F29-0CB3-49A5-9C19-96234074CC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorDarkModeSwitch", "src\BlazorDarkModeSwitch\BlazorDarkModeSwitch.csproj", "{CA048F29-0CB3-49A5-9C19-96234074CC18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
